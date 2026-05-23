@@ -1,0 +1,117 @@
+ * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma;
+        }
+
+        body {
+            background-color: rgb(147, 188, 246);
+        }
+
+        .main {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .cont {
+            height: 75vh;
+            width: 50vw;
+            background-color: rgb(198, 223, 237);
+            border-radius: 8px 8px;
+            margin-top: 85px;
+            
+
+        }
+
+        .head {
+            width: 100%;
+            height: 10%;
+            background-color: #0e4c82;
+            border-radius: 8px 8px 0 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 60px;
+            color: aliceblue;
+
+        }
+
+        .score {
+            display: flex;
+            gap: 10px;
+
+
+        }
+
+        .sc {
+            background-color: aliceblue;
+            width: 30px;
+            color: #276ba2;
+            font-family: 'Segoe UI';
+            font-weight: bold;
+            /* padding-left: 7px; */
+            display: flex;
+            justify-content: center;
+            border-radius: 4px;
+        }
+
+        #bottom {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+            width: 100%;
+            height: 90%;
+            padding: 20px;
+            /* overflow-y: auto;  */
+
+        }
+
+        #gameOver {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;   /* center vertically */
+            font-size: 100px;
+            color:#0e4c82;
+            background-color: #a0ccf1;
+            padding: 20px;
+            border-radius: 20px;
+            font-weight: bold;
+        }
+
+/* 
+    FOR AVOIDING THE OVERFLOW OF THE BUBBLE 
+.cont {
+    height: 75vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#bottom {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    flex: 1;   /* takes remaining space 
+    overflow-y: auto;
+} */
+
+        .bubble{
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            color: #ebeff2;
+            background-color: #2876ba;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            font-size: larger;
+        }
+        .bubble:hover{
+            background-color:#16568e;
+            cursor: pointer;
+        }
+
